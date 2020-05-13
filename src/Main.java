@@ -31,5 +31,14 @@ public class Main {
         Book book7 = new Book(2,"Ocean", "Genelia Dsouza",4,314,"ISBNLMN2928");
 
         List<Book> listOfBooks = new ArrayList<>();
+        listOfBooks.add(book1);
+        listOfBooks.add(book2);
+        listOfBooks.add(book3);
+        listOfBooks.add(book4);
+        listOfBooks.add(book5);
+        listOfBooks.add(book6);
+        listOfBooks.add(book7);
+
+
     }
 }
