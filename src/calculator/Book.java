@@ -3,6 +3,18 @@ package calculator;
 import java.util.Objects;
 
 public class Book {
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", review=" + review +
+                ", pages=" + pages +
+                ", isbn='" + isbn + '\'' +
+                '}';
+    }
+
     private int id;
     private String name;
     private String author;

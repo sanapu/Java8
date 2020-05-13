@@ -39,6 +39,18 @@ public class Main {
         listOfBooks.add(book6);
         listOfBooks.add(book7);
 
-
+        listOfBooks.stream().forEach((book)-> System.out.println(book.toString()));
+int[] nums = {3,7,7,10,10,11,11};
+        System.out.println(" manual"+(8^11));
+    singleNonDuplicate(nums);
+    }
+    public static int singleNonDuplicate(int[] nums) {
+        if(nums == null || nums.length ==0 ) return 0;
+        int ele = 0;
+        for(int i:nums){
+            ele ^= i;
+            System.out.println(ele);
+        }
+        return ele;
     }
 }
