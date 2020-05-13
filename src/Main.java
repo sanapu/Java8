@@ -1,6 +1,9 @@
 import calculator.Book;
 import calculator.ICalculator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -26,5 +29,7 @@ public class Main {
         Book book5 = new Book(6,"Idiot", "Sierra Kurt",3,544,"ISBN90390");
         Book book6 = new Book(3,"Blue sky", "Hunter Beth",2,290,"ISBN00930321");
         Book book7 = new Book(2,"Ocean", "Genelia Dsouza",4,314,"ISBNLMN2928");
+
+        List<Book> listOfBooks = new ArrayList<>();
     }
 }
